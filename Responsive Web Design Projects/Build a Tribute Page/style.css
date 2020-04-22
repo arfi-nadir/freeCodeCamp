@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(315deg, #fc89ac 0%, #ff9f44 74%);
+    line-height: 1.5;
+    text-align: center;
+}
+#logo{
+    width: 6%;
+    border-radius: 10px;
+    border: 3px solid #8a4419;
+    border-style: inset;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+#logo:hover{
+    width:8%;
+}
+li{
+    font-family: Lucida, Arial, sans-serif;
+    max-width: 750px;
+    margin:auto;
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 750px) {
+    li{
+    margin-right: 20px;
+    }
+  }
+ul{
+    max-width: 750px;
+    margin:auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+#main{
+    background-image: linear-gradient(315deg, #fc89ac 0%, #ff9f44 74%);
+    border-style: solid;
+    border-color: #ff9f44;
+    border-width: 2px;
+    border-radius:0.4%;
+}    
+#title{
+    font-size: 40px;
+    font-family: Lucida, Arial, sans-serif;
+    text-align: center;
+}
+
+#description{
+    font-family: Lucida, Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+#img-caption{
+    font-family: Lucida, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    border-radius: 5%;
+}
+#image:hover{
+    width: 70%;
+}
+
+#tribute-info{
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: 24px;
+    position: static;
+    z-index:auto;
+
+}
+
+#quote{
+    font-style: italic;
+    text-align: center;
+}
+#tribute-link{
+    color:black;
+}
+#footer{
+    font-style: Lucida, Arial, sans-serif;
+    text-align: center;
+    margin:10px auto 40px auto;
+}
