@@ -1,0 +1,75 @@
+body{
+    background-color: #0A0A22;
+    background-image: linear-gradient(315deg, #48a9fe 0%, rgb(20, 20, 59) 74%);
+    color:white;
+    font-family: 'saxMono';    
+    font-weight: 700;
+    line-height: 1.4;
+    padding-bottom: 1%;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% 5% 2% 5%;
+}
+
+#title{
+    font-size: 350%;
+}
+
+#survey-form{
+    width: 40%;
+    margin:auto;    
+
+    border-radius: 7px;
+    border-style: solid;
+    border-width:4px;
+    border-color: #48a9fe;
+    padding:3% 10% 10% 3%;
+}
+
+.form-group{
+    margin-right: -10px;
+    padding:3% 1% 1% 2%;
+    font-size: 22px;
+}
+@media screen and (max-width: 650px) {
+    #survey-form {
+        width: 300px;
+    }
+    .form-group{
+        margin-right:8px; 
+    }
+  }
+
+#footer{
+    font-size:20px;
+    align-items: center;
+    text-align: center;
+    margin: 2% 5% 0% 5%;
+}
+
+#submit{
+    margin-right: -17px;
+    margin-top:20px;
+    padding: 2% 2% 2% 2%;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px grey;
+}#submit:hover{
+    background-color: #48a9fe;
+}
+
+#name,#email,#number,#dropdown,#submit,textarea{
+    width:110%;
+    font-size: 80%;
+    padding: 6px 12px;
+    margin: 8px 8px 8px 8px;
+    box-sizing: border-box;
+    border: 4px solid rgb(186, 233, 255);
+    border-radius: 4px;
+}
