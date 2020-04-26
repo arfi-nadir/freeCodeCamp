@@ -4,7 +4,6 @@ body{
     background-image: linear-gradient(315deg, #002f58 50%, rgb(20, 20, 59) 74%);
     color:white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
-    font-weight: 700;
     line-height: 1.4;
     padding-bottom: 1%;
 }
